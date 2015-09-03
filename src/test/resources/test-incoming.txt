@@ -1,0 +1,66 @@
+#7530
+16.03.2014 21:19:59.000 CET
+Zahlung bei Lieferung
+Anlieferung bis 6 km
+150
+CXDZY
+120
+1170
+Anh Quan Nguyen
+
+Demostrasse 1
+
+Teststadt
+Demostate  
+12345
+Demoland
+
+Bestellung:
+1
+D1
+Gebackene Banane
+Dessert
+200
+200
+Properties:
++Extrawunsch:::
+
+1
+X10
+Gebratene Nudeln - ca. 400 ml
+Hauptspeisen
+200
+200
+Properties:
++Extrawunsch:::
+
+1
+X17
+Hot Chilli Sauce - ca. 35 ml
+Beilage
+50
+50
+Properties:
++Extrawunsch:::
+
+1
+32
+Cha Gio Chay (6 Stk.)
+Starters
+200
+200
+Properties:
++Extrawunsch:::
+
+1
+N1
+Gebratene Nudeln mit Gemüse - Gebratene Spaghetti / Süß-sauer Sauce
+Gemüse
+520
+520
+Properties:
++Schärfegrad:::scharf
++Extrawunsch:::
+
+Notice:
+Please delivery at 10:00

@@ -1,0 +1,29 @@
+{{ date | date: "%d.%m.%Y %H:%M:%S.000 %Z" }}
+{% assign words = customer_url | split: '/' %}{{ words[5] }}
+{{ gateway }}
+{{ shipping_method.title }}
+{{ shipping_price }}
+{{ discounts.first.code }}
+{{ discounts_savings }}
+{{ total_price }}
+{{ shipping_address.name }}
+{{ shipping_address.company }}
+{{ shipping_address.address1 }}
+{{ shipping_address.address2 }}
+{{ shipping_address.city }}
+{{ shipping_address.province }}  
+{{ shipping_address.zip }}
+{{ shipping_address.country }}
+{{ shipping_address.phone }}
+Bestellung:{% for line in line_items %}
+{{ line.quantity }}
+{% unless line.product.metafields.global.product_no == nil %}{{ line.product.metafields.global.product_no }}{% else %}{{ line.sku }}{% endunless %}
+{{line.title }}
+{{line.product.type }}
+{{ line.price }}
+{{ line.line_price }}
+Properties:{% for p in line.properties %}{%unless (p.last == empty) || (p.last == blank) || (p.last == nil) %}
++{{ p.first }}:::{{ p.last }}{% endunless %}{% endfor %}
+{% endfor %}
+Notice:
+{{ note }}
